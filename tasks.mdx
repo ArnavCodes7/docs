@@ -1,0 +1,393 @@
+---
+title: "Tasks & Planning"
+description: "Organize assignments with Kanban boards, lists, calendars, and smart task planning."
+icon: "check-square"
+---
+
+# Tasks & Planning
+
+The **Tasks** page is your command center for managing assignments, homework, and study goals. With multiple views and smart organization, you'll never miss a deadline.
+
+---
+
+## What You'll Learn
+
+- [Overview](#overview)
+- [View Modes](#view-modes)
+- [Creating Tasks](#creating-tasks)
+- [Task Properties](#task-properties)
+- [Quick Add](#quick-add)
+- [Habit Tracker](#habit-tracker)
+- [AI Task Planner](#ai-task-planner)
+- [Task Views Deep Dive](#task-views-deep-dive)
+- [Tips & Tricks](#tips--tricks)
+
+---
+
+## Overview
+
+The Tasks page offers a comprehensive task management system with multiple ways to visualize and organize your work:
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                     TASKS & PLANNING                             │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  ┌────────────────────────────────────────────────────────────┐ │
+│  │              Habit Tracker (Top)                           │ │
+│  └────────────────────────────────────────────────────────────┘ │
+│                                                                  │
+│  ┌────────────────────────────────────────────────────────────┐ │
+│  │              AI Task Planner                               │ │
+│  └────────────────────────────────────────────────────────────┘ │
+│                                                                  │
+│  ┌──────────────┐  ┌─────────────────────────────────────────┐ │
+│  │              │  │                                         │ │
+│  │   Board      │  │      Task Content (varies by view)      │ │
+│  │   List       │  │                                         │ │
+│  │   Calendar   │  │                                         │ │
+│  │   Zen        │  │                                         │ │
+│  │   Matrix     │  │                                         │ │
+│  │              │  │                                         │ │
+│  └──────────────┘  └─────────────────────────────────────────┘ │
+│                                                                  │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## View Modes
+
+Switch between different views to manage tasks your way:
+
+### Board View (Kanban) 📋
+
+Drag-and-drop task management:
+
+- **Columns** - Status-based (To Do, In Progress, Done)
+- **Cards** - Each task is a card
+- **Drag & Drop** - Move tasks between columns
+- **Color-coded** - By subject/priority
+
+**Best for:** Visual learners, project management
+
+### List View 📝
+
+Traditional checklist format:
+
+- **Compact** - See many tasks at once
+- **Sortable** - By date, priority, subject
+- **Searchable** - Quick find any task
+- **Batch actions** - Select multiple tasks
+
+**Best for:** Overview lovers, quick editing
+
+### Calendar View 📅
+
+Calendar-based planning:
+
+- **Month/Week/Day** - Multiple timeframes
+- **Drag & Drop** - Reschedule by dragging
+- **Color coding** - By subject or priority
+- **Deadline visibility** - See what's coming
+
+**Best for:** Deadline management, time blocking
+
+### Zen Mode 🧘
+
+Minimalist task view:
+
+- **One task at a time** - Complete focus
+- **Timer integration** - Start focus session
+- **No distractions** - Just you and the task
+- **Satisfying completion** - Check off and move on
+
+**Best for:** Deep work, clearing backlog
+
+### Eisenhower Matrix 🔲
+
+Priority-based organization:
+
+```
+    URGENT          NOT URGENT
+    ┌─────────┬─────────┐
+DO  │   P1    │   P2    │  ← Do First
+    │         │         │
+    ├─────────┼─────────┤
+DELE-│         │         │  ← Schedule
+GATE │   P3    │   P4    │
+    └─────────┴─────────┘
+```
+
+- **4 Quadrants** - Based on urgency/importance
+- **Auto-sorting** - Tasks automatically placed
+- **Smart suggestions** - AI recommends where to put tasks
+
+**Best for:** Prioritization, avoiding busy work
+
+---
+
+## Creating Tasks
+
+### Method 1: Floating Action Button
+
+1. Click the **+** button (bottom right)
+2. Fill in task details
+3. Click **Save**
+
+### Method 2: Quick Add
+
+Use the search bar at the top:
+
+```
+"Study Math !p1 #Physics @tomorrow"
+```
+
+**Syntax:**
+- `!p1` - Priority (p1-p4)
+- `#Subject` - Subject tag
+- `@when` - Due date
+
+### Method 3: From Study Page
+
+When viewing a topic in Study:
+- Click **"Add to Tasks"**
+- Task is pre-filled with topic details
+
+---
+
+## Task Properties
+
+Each task has detailed properties:
+
+### Basic Info
+- **Title** - Task name (required)
+- **Description** - Detailed notes
+- **Subject** - Associated subject
+- **Chapter/Topic** - Specific location
+
+### Scheduling
+- **Due Date** - When it's due
+- **Start Date** - When to start
+- **Estimated Time** - How long it takes
+- **Energy Level** - High/Medium/Low energy needed
+
+### Priority
+- **P1 (Critical)** - Must do
+- **P2 (High)** - Should do
+- **P3 (Medium)** - Important
+- **P4 (Low)** - Nice to do
+
+### Status
+- **Backlog** - Not started
+- **Todo** - To do
+- **In Progress** - Being worked on
+- **Done** - Completed
+- **Cancelled** - Won't do
+
+### Additional
+- **Subtasks** - Break down into steps
+- **Recurring** - Daily/Weekly/Monthly repeat
+- **Links** - Connect to topics/exams
+
+---
+
+## Quick Add
+
+The fastest way to create tasks:
+
+### Syntax Guide
+
+| Format | Example | Result |
+|--------|---------|--------|
+| Basic | `Finish math homework` | Task created |
+| Priority | `!p1 Finish math` | P1 priority |
+| Subject | `#Math Finish homework` | Tagged Math |
+| Due Date | `@tomorrow` | Due tomorrow |
+| Due Date | `@next monday` | Due Monday |
+| Due Date | `@15/02` | Due Feb 15 |
+
+### Combined Example
+```
+Study Chapter 5 !p1 #Physics @friday
+```
+Creates a P1 Physics task due Friday!
+
+---
+
+## Habit Tracker
+
+Build consistent study habits with the Habit Tracker:
+
+### Features
+- **Daily habits** - Track recurring activities
+- **Streaks** - See your consistency
+- **Completions** - Check off daily
+- **Statistics** - Weekly/monthly views
+
+### Default Habits
+- Morning study session
+- Evening revision
+- Practice problems
+- Reading time
+
+### Custom Habits
+- Add your own habits
+- Set frequency (daily, weekly)
+- Track any activity
+
+> 💡 **Pro Tip:** Start with just 2-3 habits. Consistency beats quantity!
+
+---
+
+## AI Task Planner
+
+Let AI help you plan your tasks intelligently:
+
+### What It Does
+- Analyzes your workload
+- Considers deadlines
+- Respects energy levels
+- Optimizes task order
+
+### How It Works
+1. AI examines all your tasks
+2. Considers due dates and priorities
+3. Accounts for your energy patterns
+4. Suggests optimal task order
+5. You accept or modify suggestions
+
+### Features
+- **Smart ordering** - Best sequence for productivity
+- **Deadline awareness** - Never miss a due date
+- **Energy matching** - Match tasks to energy levels
+- **Break suggestions** - AI knows when to rest
+
+---
+
+## Task Views Deep Dive
+
+### Board View
+
+```
+┌─────────────┬─────────────┬─────────────┬─────────────┐
+│   TO DO     │ IN PROGRESS │   REVIEW    │    DONE     │
+├─────────────┼─────────────┼─────────────┼─────────────┤
+│ ┌─────────┐ │ ┌─────────┐ │ ┌─────────┐ │ ┌─────────┐ │
+│ │ Task 1  │ │ │ Task 3  │ │ │ Task 5  │ │ │ Task 7  │ │
+│ │ #Math   │ │ │ #Phys   │ │ │ #Chem   │ │ │ #Math   │ │
+│ │ !p1     │ │ │ !p2     │ │ │ !p3     │ │ │ !p1     │ │
+│ └─────────┘ │ └─────────┘ │ └─────────┘ │ └─────────┘ │
+│ ┌─────────┐ │             │             │ ┌─────────┐ │
+│ │ Task 2  │ │             │             │ │ Task 8  │ │
+│ │ #Chem   │ │             │             │ │ #Phys   │ │
+│ └─────────┘ │             │             │ └─────────┘ │
+└─────────────┴─────────────┴─────────────┴─────────────┘
+```
+
+**Interactions:**
+- Drag between columns
+- Click to expand/edit
+- Right-click for quick actions
+
+### List View
+
+| Priority | Task | Subject | Due Date | Status |
+|----------|------|---------|----------|--------|
+| P1 🔴 | Study Physics Ch.5 | Physics | Today | To Do |
+| P1 🔴 | Math assignment | Math | Today | In Progress |
+| P2 🟡 | Chemistry lab | Chemistry | Tomorrow | To Do |
+| P3 🟢 | Review notes | Biology | Friday | To Do |
+
+**Sort options:**
+- Priority
+- Due date
+- Subject
+- Status
+- Creation date
+
+### Calendar View
+
+See tasks on a calendar:
+- **Color dots** - By priority or subject
+- **Task count** - Number per day
+- **Drag to reschedule** - Easy date changes
+
+### Zen Mode
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│                                                             │
+│                   ┌───────────────────┐                     │
+│                   │                   │                     │
+│                   │   Current Task    │                     │
+│                   │                   │                     │
+│                   │   Math Problems   │                     │
+│                   │   Chapter 5       │                     │
+│                   │                   │                     │
+│                   │      ⏱️ 25m       │                     │
+│                   │                   │                     │
+│                   └───────────────────┘                     │
+│                                                             │
+│            [ Mark Complete → ]                             │
+│                                                             │
+│   ← Previous      Next →                                   │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Flow:**
+1. Shows one task at a time
+2. Optional timer to track time
+3. Mark complete to move to next
+4. Perfect for clearing backlog
+
+---
+
+## Tips & Tricks
+
+### Task Management Best Practices
+
+1. **Daily Review** - Check tasks every morning
+2. **Two-minute rule** - Do small tasks immediately
+3. **Batch similar tasks** - Group by subject
+4. **Use priorities** - P1 tasks first
+5. **Break big tasks** - Use subtasks
+
+### Quick Add Mastery
+
+Master the quick add syntax:
+
+```
+# Study !p1 @tomorrow = P1 study task due tomorrow
+!p2 #Math @monday = Math task, medium priority, due Monday
+```
+
+### Building Habits
+
+- Start with **one** habit
+- Keep it small and achievable
+- Track every day
+- Celebrate streaks
+
+### Productivity Flow
+
+1. **Morning** - Check AI Task Planner
+2. **Start with P1** - Most important first
+3. **Use Zen Mode** - For deep work
+4. **Batch similar** - Group by subject
+5. **End with review** - Plan tomorrow
+
+---
+
+## Related Features
+
+| Feature | Description | Link |
+|---------|-------------|------|
+| Focus | Start task in Focus | [Focus](/users/pages/focus) |
+| Study | Link to topics | [Study](/users/pages/study) |
+| Dashboard | Today's tasks | [Dashboard](/users/pages/dashboard) |
+| Analytics | Task analytics | [Analytics](/users/pages/analytics) |
+
+---
